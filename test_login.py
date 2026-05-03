@@ -16,7 +16,9 @@ try:
     password.send_keys("secret_sauce")
 
     #Hacer click en el botón de login
-    password.send_keys(keys.RETURN)
+    password.send_keys(Keys.RETURN)   #Keys mayuscula, sino no lo reconoce.
+
+    # en caso de que fuera un boton: boton.driver.find_element(By.ID, "login-button").click()
 
     #Verificar url
     if "/inventory.html" in driver.current_url:
