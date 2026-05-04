@@ -4,13 +4,13 @@ from selenium.webdriver.common.by import By
 def login(driver):
     driver.get("https://www.saucedemo.com/")
 
-    #Ingresar usuario
-    usuario = driver.find_element(By.ID, "user-name")
+    # Ingresar usuario
+    usuario = driver.find_element(By.ID,"user-name")
     usuario.send_keys("standard_user")
 
-    #Ingresar contraseña
+    # Ingresar contreseña
     password = driver.find_element(By.ID, "password")
     password.send_keys("secret_sauce")
 
-    #Click en botón
-    boton.driver.find_element(By.ID, "login-button").click()
+    # Click en boton
+    boton = driver.find_element(By.ID, "login-button").click()
