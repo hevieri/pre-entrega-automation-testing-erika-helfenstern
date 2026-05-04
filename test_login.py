@@ -7,14 +7,6 @@ try:
     #Ingreso pagina
     driver.get("https://www.saucedemo.com/")
 
-    #Ingresar usuario
-    usuario = driver.find_element(By.ID, "user-name")
-    usuario.send_keys("standard_user")
-
-    #Ingresar contraseña
-    password = driver.find_element(By.ID, "password")
-    password.send_keys("secret_sauce")
-
     #Hacer click en el botón de login
     password.send_keys(Keys.RETURN)   #Keys mayuscula, sino no lo reconoce.
 
