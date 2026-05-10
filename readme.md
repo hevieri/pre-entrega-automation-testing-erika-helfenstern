@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Pre-Entrega Automation Testing - Erika Helfenstern
 
 ## 📌 Propósito del proyecto
