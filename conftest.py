@@ -5,7 +5,7 @@ from utils.LoginPage import login
 @pytest.fixture
 def driver():
     options = webdriver.ChromeOptions()
-    options.add_argument("--incongnito")
+    options.add_argument("--incognito")
 
     driver = webdriver.Chrome(options= options)
 
